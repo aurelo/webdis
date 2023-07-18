@@ -21,7 +21,8 @@ services:
           type: redis
           name: lightning
           property: port
-      - fromGroup: conc-settings
+
+          
   # A Redis instance
   - type: redis
     name: lightning
